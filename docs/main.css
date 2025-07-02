@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 div#flipper img.flag-state-georgia {
-    transition: left 400ms, top 400ms;
+    transition: left 400ms ease, top 400ms linear;
 }
 
 div#flipper:hover img.flag-state-georgia {
