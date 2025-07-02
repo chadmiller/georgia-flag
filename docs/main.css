@@ -1,3 +1,7 @@
+:root {
+  --bs-body-font-size: 1.3rem;
+  --bs-body-color: #212529;
+}
 
 body {
   background-position: -0.125cm -0.125cm; 
@@ -18,6 +22,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 div#flipper:hover img.flag-state-georgia {
 	opacity: 1 !important;
+}
+
+div#flipper p span.flag-state-confederacy {
+	text-decoration: wavy red;
+}
+
+div#flipper p span.word-confederacy {
+	text-decoration: underline red wavy;
 }
 
 div#flipper:hover p span.flag-state-confederacy {
