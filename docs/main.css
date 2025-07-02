@@ -20,8 +20,14 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
 
 }
+
+div#flipper img.flag-state-georgia {
+    transition: left 400ms, top 400ms;
+}
+
 div#flipper:hover img.flag-state-georgia {
-	opacity: 1 !important;
+    top: 8.0vh !important;
+    left: 8.4vh !important;
 }
 
 div#flipper p span.flag-state-confederacy {
