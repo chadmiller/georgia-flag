@@ -1,13 +1,11 @@
 :root {
   --bs-body-font-size: 1.3rem;
   --bs-body-color: #212529;
+  --bs-heading-color: #446;
 }
 
 body {
-  background-position: -0.125cm -0.125cm; 
-  background: repeating-conic-gradient(#f5f8ff 0 25%, #0000 0 50%) 50% / 0.75cm 0.75cm;
-
-  font-family: "Roboto", sans-serif;
+  font-family: "Faustina", serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
@@ -25,7 +23,8 @@ div#flipper img.flag-state-georgia {
     transition: left 400ms ease, top 400ms linear;
 }
 
-div#flipper:hover img.flag-state-georgia {
+div.flipped img.flag-state-georgia
+{
     top: 0px !important;
     left: 0px !important;
 }
@@ -35,13 +34,14 @@ div#flipper p span.flag-state-confederacy {
 }
 
 div#flipper p span.word-confederacy {
-	text-decoration: underline red wavy;
+	text-decoration: underline #c81010 wavy;
+	text-decoration-skip-ink: none;
 }
 
-div#flipper:hover p span.flag-state-confederacy {
+div.flipped p span.flag-state-confederacy {
 	display: none;
 }
 
-div#flipper:hover p span.flag-state-georgia {
+div.flipped p span.flag-state-georgia {
 	display: inline !important;
 }
