@@ -61,3 +61,17 @@ div#wjm-columns ul li {
   font-weight: 400;
   font-style: normal;
 }
+
+span.flgo {
+  background-color: #efd600;
+  color: var(--bs-dark);
+  white-space-collapse: collapse;
+  padding: 0 0.5ex;
+}
+
+span.flbl {
+  background-color: #001065;
+  color: var(--bs-light);
+  white-space-collapse: collapse;
+  padding: 0 0.5ex;
+}
